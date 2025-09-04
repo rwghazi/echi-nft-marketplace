@@ -1,26 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import trendingCollections from "../../data/trendingCollections.json";
-import nft1 from "../../assets/nfts/nft-1.png";
-import nft2 from "../../assets/nfts/nft-2.png";
-import nft3 from "../../assets/nfts/nft-3.png";
-import nft4 from "../../assets/nfts/nft-4.png";
-import nft5 from "../../assets/nfts/nft-5.png";
-import nft6 from "../../assets/nfts/nft-6.png";
-import nft7 from "../../assets/nfts/nft-7.png";
-
-// Helper function to get image by filename
-const getImageByFilename = (filename: string) => {
-  const images: { [key: string]: string } = {
-    "nft-1.png": nft1,
-    "nft-2.png": nft2,
-    "nft-3.png": nft3,
-    "nft-4.png": nft4,
-    "nft-5.png": nft5,
-    "nft-6.png": nft6,
-    "nft-7.png": nft7,
-  };
-  return images[filename] || nft1;
-};
+import trendingCollections from "../../data/trendingCollections";
 
 export default function TrendingCollections() {
   const navigate = useNavigate();
@@ -55,7 +34,7 @@ export default function TrendingCollections() {
                 onClick={handleClick}
               >
                 <img
-                  src={getImageByFilename(collection.mainImage)}
+                  src={collection.mainImage}
                   alt={`${collection.title} Main`}
                   className="w-full h-full object-cover"
                 />
@@ -66,7 +45,7 @@ export default function TrendingCollections() {
                   onClick={handleClick}
                 >
                   <img
-                    src={getImageByFilename(collection.smallImages[0])}
+                    src={collection.smallImages[0]}
                     alt={`${collection.title} 1`}
                     className="w-full h-full object-cover"
                   />
@@ -76,7 +55,7 @@ export default function TrendingCollections() {
                   onClick={handleClick}
                 >
                   <img
-                    src={getImageByFilename(collection.smallImages[1])}
+                    src={collection.smallImages[1]}
                     alt={`${collection.title} 2`}
                     className="w-full h-full object-cover"
                   />
@@ -100,4 +79,4 @@ export default function TrendingCollections() {
       </div>
     </div>
   );
-} 
+}

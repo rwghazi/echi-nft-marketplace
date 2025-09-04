@@ -5,7 +5,7 @@ import avatar from "../assets/avatars/ava-4.png";
 import Stats from "../components/stats";
 import socials from "../assets/icons/socials.png";
 import NFTCard from '../components/cards/NFTCard';
-import trendingNFTs from '../data/trendingNFTs.json';
+import trendingNFTs from '../data/trendingNFTs';
 import { Button } from '../components/ui';
 
 export default function Artist() {

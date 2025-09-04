@@ -1,5 +1,5 @@
 import { useNavigate } from 'react-router-dom';
-import trendingNFTs from "../../data/trendingNFTs.json";
+import trendingNFTs from "../../data/trendingNFTs";
 import NFTCard from "../cards/NFTCard";
 import { Button } from '../ui';
 import eyeIcon from '../../assets/icons/eye.png';

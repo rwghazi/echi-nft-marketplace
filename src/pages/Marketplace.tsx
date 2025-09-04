@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import NFTCard from '../components/cards/NFTCard';
-import trendingNFTs from '../data/trendingNFTs.json';
+import trendingNFTs from '../data/trendingNFTs';
 
 export default function Marketplace() {
   const [activeTab, setActiveTab] = useState('NFTs');

@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import topCreators from '../data/topCreators.json';
+import topCreators from '../data/topCreators';
 
 export default function Rankings() {
   const [activeTab, setActiveTab] = useState('Today');

@@ -1,5 +1,5 @@
 import { useNavigate } from 'react-router-dom';
-import topCreators from "../../data/topCreators.json";
+import topCreators from "../../data/topCreators";
 import CreatorCard from "../cards/CreatorCard";
 import { Button } from '../ui';
 import rocketIcon from '../../assets/icons/rocket.png';

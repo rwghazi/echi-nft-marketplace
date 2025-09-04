@@ -24,7 +24,7 @@ export default function Discover() {
          variant="secondary"
          size="lg"
          onClick={handleSeeAll}
-         className="w-full sm:w-auto"
+         className="!hidden sm:!flex w-full sm:w-auto"
          icon={<img src={eyeIcon} alt="Eye Icon" className="w-6 h-6" />}
         >
           See All

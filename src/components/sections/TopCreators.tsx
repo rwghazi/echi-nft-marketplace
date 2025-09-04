@@ -28,7 +28,7 @@ export default function TopCreators() {
           variant="secondary"
           size="lg"
           onClick={handleViewRankings}
-          className="w-full sm:w-auto"
+          className="!hidden sm:!flex w-full sm:w-auto"
           icon={<img src={rocketIcon} alt="Rocket Icon" className="w-6 h-6" />}
         >
           View Rankings
@@ -48,10 +48,10 @@ export default function TopCreators() {
         ))}
       </div>
       
-=      <Button 
+    <Button 
         variant="secondary"
         onClick={handleViewRankings}
-        className="md:hidden mt-8 w-full"
+        className="sm:hidden mt-8 w-full"
         icon={<img src={rocketIcon} alt="Rocket Icon" className="w-6 h-6" />}
       >
         View Rankings

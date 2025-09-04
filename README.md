@@ -2,12 +2,18 @@
 
 A modern, responsive NFT marketplace built with React, TypeScript, and Tailwind CSS. This application showcases trending NFTs, top creators, categories, and provides a seamless browsing experience for digital collectibles.
 
+## 🌐 Live Demo
+
+**🔗 [View Live Application](https://echi-nft-marketplace.vercel.app/)**
+
 ## 🚀 Features
 
 - **Responsive Design**: Optimized for desktop, tablet, and mobile devices
 - **Modern UI/UX**: Clean, intuitive interface with smooth animations
-- **Creator Profiles**: View creator profiles with stats and bio
-- **Marketplace**: Browse NFTs with tabbed navigation
+- **NFT Browsing**: Browse trending NFTs, collections, and creators
+- **Category Filtering**: Explore NFTs by categories (Art, Music, Photography, etc.)
+- **Creator Profiles**: View detailed creator profiles with stats and bio
+- **Marketplace**: Browse and filter NFTs with tabbed navigation
 - **Rankings**: View top creators with volume and change metrics
 
 ## 🛠️ Tech Stack
@@ -60,7 +66,7 @@ npm run preview
 npm run lint
 ```
 
-## 🏗️ Project Structure
+## ��️ Project Structure
 
 ```
 src/
@@ -68,7 +74,7 @@ src/
 │   ├── cards/          # Card components (NFTCard, CategoryCard, CreatorCard)
 │   ├── layout/         # Layout components (Header, Footer)
 │   ├── sections/       # Page sections (Hero, Categories, etc.)
-│   └── ui/             # Base UI components (Button, etc)
+│   └── ui/             # Base UI components (Button)
 ├── data/               # TypeScript data files with imported assets
 ├── layouts/            # Layout wrappers
 ├── pages/              # Route components
@@ -123,6 +129,7 @@ src/
 ### 1. **Backend Integration**
 - Implement real API endpoints for NFT data
 - Add user authentication and wallet connection
+- Create database for user profiles and NFT metadata
 - Add real-time updates for prices and bids
 
 ### 2. **Enhanced Features**
@@ -141,6 +148,8 @@ src/
 ### 4. **Developer Experience**
 - **Testing**: Add comprehensive unit and integration tests
 - **Storybook**: Component documentation and testing
+- **CI/CD**: Automated testing and deployment pipelines
+- **Error Monitoring**: Implement error tracking and monitoring
 
 ### 5. **Accessibility & SEO**
 - **ARIA Labels**: Complete accessibility implementation
@@ -151,10 +160,14 @@ src/
 ### 6. **Advanced UI/UX**
 - **Dark/Light Mode**: Theme switching capability
 - **Animations**: Enhanced micro-interactions and transitions
+- **Mobile App**: React Native version for mobile
 - **Progressive Web App**: PWA features for app-like experience
 
 ### 7. **Blockchain Integration**
 - **Wallet Connection**: MetaMask, WalletConnect integration
+- **Smart Contracts**: NFT minting and trading functionality
+- **Gas Optimization**: Efficient transaction handling
+- **Multi-chain Support**: Support for multiple blockchain networks
 
 ## 🚀 Deployment
 

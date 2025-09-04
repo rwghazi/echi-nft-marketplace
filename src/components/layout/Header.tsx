@@ -94,13 +94,6 @@ export default function Header() {
             >
               Connect a wallet
             </Link>
-            <Link
-              to="/about"
-              className="text-white/90 hover:text-white"
-              onClick={() => setMobileOpen(false)}
-            >
-              About
-            </Link>
           </nav>
         </div>
       )}

@@ -4,7 +4,6 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./index.css";
 import RootLayout from "./layouts/RootLayout";
 import Home from "./pages/Home.tsx";
-import About from "./pages/About.tsx";
 import Registration from "./pages/Registration.tsx";
 import ErrorPage from "./pages/Error.tsx";
 import Artist from "./pages/Artist.tsx";
@@ -20,7 +19,6 @@ const router = createBrowserRouter([
     errorElement: <ErrorPage />,
     children: [
       { index: true, element: <Home /> },
-      { path: "about", element: <About /> },
       { path: "register", element: <Registration /> },
       { path: "connect-wallet", element: <ConnectWallet /> },
       { path: "artist", element: <Artist /> },

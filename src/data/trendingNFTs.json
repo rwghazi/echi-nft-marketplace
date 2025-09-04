@@ -1,0 +1,26 @@
+[
+  {
+    "image": "/src/assets/nfts/nft-1.png",
+    "title": "Life on Edena",
+    "creator": "John Doe",
+    "avatar": "/src/assets/avatars/ava-1.png",
+    "price": "100",
+    "bid": "100"
+  },
+  {
+    "image": "/src/assets/nfts/nft-2.png",
+    "title": "Edena Life",
+    "creator": "John Doe",
+    "avatar": "/src/assets/avatars/ava-2.png",
+    "price": "100",
+    "bid": "100"
+  },
+  {
+    "image": "/src/assets/nfts/nft-3.png",
+    "title": "Distant Galaxy",
+    "creator": "John Doe",
+    "avatar": "/src/assets/avatars/ava-3.png",
+    "price": "100",
+    "bid": "100"
+  }
+]

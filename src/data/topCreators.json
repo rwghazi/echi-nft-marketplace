@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "rank": 1,
+    "name": "Keepitreal",
+    "image": "/src/assets/avatars/ava-1.png",
+    "volume": "34.53 ETH",
+    "change": "+1.43%"
+  },
+  {
+    "id": 2,
+    "rank": 2,
+    "name": "DigiLab",
+    "image": "/src/assets/avatars/ava-2.png",
+    "volume": "28.10 ETH",
+    "change": "+2.15%"
+  },
+  {
+    "id": 3,
+    "rank": 3,
+    "name": "GravityOne",
+    "image": "/src/assets/avatars/ava-3.png",
+    "volume": "19.85 ETH",
+    "change": "+0.89%"
+  },
+  {
+    "id": 4,
+    "rank": 4,
+    "name": "Juanie",
+    "image": "/src/assets/avatars/ava-2.png",
+    "volume": "15.22 ETH",
+    "change": "-0.45%"
+  },
+  {
+    "id": 5,
+    "rank": 5,
+    "name": "BlueWhale",
+    "image": "/src/assets/avatars/ava-1.png",
+    "volume": "12.70 ETH",
+    "change": "+3.21%"
+  },
+  {
+    "id": 6,
+    "rank": 6,
+    "name": "GreenTurtle",
+    "image": "/src/assets/avatars/ava-3.png",
+    "volume": "9.99 ETH",
+    "change": "+1.67%"
+  },
+  {
+    "id": 7,
+    "rank": 7,
+    "name": "RedFox",
+    "image": "/src/assets/avatars/ava-2.png",
+    "volume": "8.45 ETH",
+    "change": "-1.23%"
+  },
+  {
+    "id": 8,
+    "rank": 8,
+    "name": "SilverWolf",
+    "image": "/src/assets/avatars/ava-1.png",
+    "volume": "7.30 ETH",
+    "change": "+0.34%"
+  }
+]

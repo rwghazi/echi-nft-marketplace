@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "title": "DSGN Animals",
+    "creator": "MrFox",
+    "mainImage": "nft-2.png",
+    "smallImages": [
+      "nft-3.png",
+      "nft-4.png"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Magic Mushrooms",
+    "creator": "Shroomie",
+    "mainImage": "nft-5.png",
+    "smallImages": [
+      "nft-6.png",
+      "nft-7.png"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Disco Machines",
+    "creator": "BeKind2Robots",
+    "mainImage": "nft-1.png",
+    "smallImages": [
+      "nft-2.png",
+      "nft-3.png"
+    ]
+  }
+] 
